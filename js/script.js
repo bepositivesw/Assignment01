@@ -21,7 +21,11 @@
 
 
 //// STEP 4
+// Camel Casing: 
 //var firstName, lastName, address, city, state, zipCode, yourAge, referralSource, mayWeContactYou;
+
+// Hungarian Notation: 
+//var strFirstName, strLastName, strAddress, strCity, strState, strZipCode, intYourAge, strReferralSource, blnMayWeContactYou;
 
 
 //// STEP 5
@@ -93,7 +97,7 @@
 
 
 // STEP 14
-//window.alert('Hello ' + name + '.\nWelcome to the ' + course + ' class!');
+//window.console.log('Hello ' + name + '.\nWelcome to the ' + course + ' class!');
 
 
 //// STEP 15
@@ -149,10 +153,10 @@
 
 
 //// STEP 24
-//var x = [1, 2, 3];
-//window.console.log(x instanceof Object);
+//var widget = {};
+//window.console.log(widget instanceof Object);
 
 
 //// STEP 25
-//var y = 5;
-//window.console.log(y instanceof Object);
+//var widget = {};
+//window.console.log(widget instanceof Date);
